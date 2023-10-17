@@ -17,13 +17,9 @@ public class MergeSort {
 			d = tmp;
 			l*=2;
 		}
-		if(s != nums) {
+		if(s != nums)
 			System.arraycopy(nums, 0, s, 0, n);
-			s = null;
-		}
-		else {
-			d = null;
-		}
+
 	}
 	private void merge(double[] s, double[] d, int ps, int ss, int ks) {
 		int i = ps;
